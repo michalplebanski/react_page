@@ -10,22 +10,22 @@ class Navigation extends Component {
 				{
 					key: 0,
 					name: 'About',
-					src: '/',
+					src: '/about',
 				},
 				{
 					key: 1,
 					name: 'Services',
-					src: '/',
+					src: '/services',
 				},
 				{
 					key: 2,
 					name: 'Work',
-					src: '/',
+					src: '/work',
 				},
 				{
 					key: 3,
 					name: 'Contact',
-					src: '/',
+					src: '/contact',
 				},
 			]
 		}

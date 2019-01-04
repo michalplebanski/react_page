@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import RouteContainer from './containers/RouteContainer/RouteContainer';
-import './App.css';
 
 class App extends Component {
   render() {
