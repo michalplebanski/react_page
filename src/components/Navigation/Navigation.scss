@@ -1,0 +1,21 @@
+@import '../../common_styles/common_styles';
+.nav {
+	height: 15vh;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 0 auto;
+	padding: 0 10px;
+	font-size: $navSize;
+	letter-spacing: 0.1vw;
+	&__logo {
+		width: 20%;
+	}
+	&__list {
+		width: 60%;
+		display: flex;
+		justify-content: space-around;
+		list-style-type: none;
+	}
+}

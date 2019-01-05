@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
-import Navigation from '../Navigation/Navigation';
+import Navigation from '../Navigation/Navigation.container';
 class RouteContainer extends Component {
 	render() {
 		return (

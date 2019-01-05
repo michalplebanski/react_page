@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 
-import Nav from '../../components/Nav/Nav';
+import Navigation from '../../components/Navigation/Navigation.component';
 
-class Navigation extends Component {
+class Header extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			navigationItems: [
 				{
-					key: 0,
+					id: 0,
 					name: 'About',
 					src: '/about',
 				},
 				{
-					key: 1,
+					id: 1,
 					name: 'Services',
 					src: '/services',
 				},
 				{
-					key: 2,
+					id: 2,
 					name: 'Work',
 					src: '/work',
 				},
 				{
-					key: 3,
+					id: 3,
 					name: 'Contact',
 					src: '/contact',
 				},
@@ -33,9 +33,9 @@ class Navigation extends Component {
 
 	render() {
 		return (
-			<Nav navItems={this.state.navigationItems} />
+			<Navigation navItems={this.state.navigationItems} />
 		)
 	}
 };
 
-export default Navigation;
+export default Header;
