@@ -6,11 +6,12 @@ import './Navigation.scss'
 
 class Navigation extends Component {
 	render() {
+		const { navItems, isMenu } = this.props;
 		return (
-			<nav className='nav'>
+			<nav className={ isMenu ? 'nav' : 'hide-nav' }>
 				<i className="nav__logo fa fa-spinner fa-spin" />
 				<ul className='nav__list'>
-					{this.props.navItems.map((item) =>
+					{navItems.map((item) =>
 						<Menu
 							key={item.id}
 							name={item.name}
