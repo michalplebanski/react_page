@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import RouteContainer from './containers/RouteContainer/RouteContainer';
+import MainRoute from './containers/MainRoute/MainRoute.container';
 
 class App extends Component {
   render() {
     return (
     	<BrowserRouter>
-      		<RouteContainer />
+      		<MainRoute />
       	</BrowserRouter>
     );
   }

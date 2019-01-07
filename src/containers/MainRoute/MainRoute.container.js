@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
+import HomeRoute from '../HomeRoute/HomeRoute.container';
 import Navigation from '../Navigation/Navigation.container';
-class RouteContainer extends Component {
+
+class MainRoute extends Component {
 	render() {
 		return (
 			<>
 				<Navigation />
-				<Route exact path="/" />
+				<Route exact path="/" component={HomeRoute}/>
 				<Route path="/test" />
 				<Route path="/error" />
 			</>
@@ -15,4 +17,4 @@ class RouteContainer extends Component {
 	}
 }
 
-export default RouteContainer;
+export default MainRoute;
