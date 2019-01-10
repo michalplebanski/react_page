@@ -9,8 +9,7 @@ class MainRoute extends Component {
 		return (
 			<>
 				<Navigation />
-				<Route exact path="/" component={HomeRoute}/>
-				<Route path="/test" />
+				<Route exact path="/" component={HomeRoute} />
 				<Route path="/error" />
 			</>
 		);

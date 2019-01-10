@@ -7,8 +7,8 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	background-color: $test2;
-	color: red;
+	background-color: $lightBlue;
+	color: $white;
 	&__header {
 		padding: 10vh 0;
 		font-size: $navSize;
@@ -19,7 +19,6 @@
 	&__career {
 		width: 100%;
 		height: 42vh;
-		border: 1px solid black;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -32,17 +31,33 @@
 		justify-content: flex-start;
 		align-items: center;
 		padding: 0 2vw;
-		background-color: $test1;
 		font-size: $navSize;
+		transition: 0.4s linear;
+		&:hover {
+			background-color: $white;
+			cursor: pointer;
+			.services__icon-content {
+				color: $black;
+			}
+			.services__icon {
+				color: $lightBlue;
+			}
+			.services__example {
+				color: $grey;
+				visibility: visible;
+			}
+		}
 	}
 	&__icon {
-		font-size: $testSize;
+		font-size: $iconServices;
+		margin-top: 5vh;
 	}
 	&__icon-content {
 		margin-bottom: 1vh;
 		text-transform: capitalize;
 	}
 	&__example {
+		visibility: hidden;
 		font-size: 2.3vh;
 		text-align: center;
 	}

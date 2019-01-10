@@ -4,14 +4,14 @@
 	&__item-hover {
 		position: relative;
 		padding: 1vh 0;
-		color: $test1;
+		color: $white;
 		&:after {
 			height: 0.5vh;
 			width: 0; 
 			display: block;
 			position: absolute;
 			margin-top: 1vh;
-			background-color: $test1;
+			background-color: $white;
 			right: 0;
 			content: '';
 			transition: width .5s ease;
@@ -24,6 +24,6 @@
 		}
 	}
 	&__item-active {
-		border-bottom: 0.5vh solid $test1;
+		border-bottom: 0.5vh solid $white;
 	}
 }

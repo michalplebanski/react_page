@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Jumbotron from './Jumbotron/Jumbotron.component';
-import Services from './Services/Services.component';
+import Services from '../../containers/HomeRoute/Services/Services.container';
 
 import './Homepage.scss';
 

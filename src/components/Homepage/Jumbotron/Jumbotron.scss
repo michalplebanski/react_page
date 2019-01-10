@@ -11,8 +11,8 @@
 	background-position: center;
 	background-size: 100%;
 	background-attachment: fixed;
-	font-size: $mainHeaders;
-	color: $test1;
+	font-size: $mainHeader;
+	color: $white;
 	&__content {
 		width: 100%;
 		text-align: center;
@@ -26,5 +26,5 @@
 }
 
 .blue_color {
-	color: $test2;
+	color: $lightBlue;
 }
