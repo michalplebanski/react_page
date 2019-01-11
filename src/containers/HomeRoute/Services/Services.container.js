@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+
 import ServicesSection from '../../../components/Homepage/Services/Services.component';
 
 class Services extends Component {
@@ -18,9 +20,14 @@ class Services extends Component {
 			designProduct: [
 				'UX/UI Designer',
 				'Product Designer'
-			]
+			],
 		}
 	}
+
+	handleClick = () => {
+		this.props.history.push('/jobs');
+	}
+
 	render() {
 		const { webDevelopment, mobileApp, designProduct } = this.state;
 		return (
@@ -28,9 +35,10 @@ class Services extends Component {
 				webDev={webDevelopment} 
 				mobileApp={mobileApp}
 				designProduct={designProduct}
+				handleClick={this.handleClick}
 			/>
 		);
 	}
 }
 
-export default Services;
+export default withRouter(Services);

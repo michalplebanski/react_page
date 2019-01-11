@@ -10,7 +10,11 @@ class MainRoute extends Component {
 			<>
 				<Navigation />
 				<Route exact path="/" component={HomeRoute} />
-				<Route path="/error" />
+				<Route path="/work"/>
+				<Route path="/jobs"/>
+				<Route path="/blog"/>
+				<Route path="/contact"/>
+
 			</>
 		);
 	}

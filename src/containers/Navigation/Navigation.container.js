@@ -16,26 +16,21 @@ class Header extends Component {
 				},
 				{
 					id: 1,
-					name: 'Services',
-					src: '/services',
-				},
-				{
-					id: 2,
 					name: 'Work',
 					src: '/work',
 				},
 				{
-					id: 3,
+					id: 2,
 					name: 'Jobs',
 					src: '/jobs',
 				},
 				{
-					id: 4,
+					id: 3,
 					name: 'Blog',
 					src: '/blog',
 				},
 				{
-					id: 5,
+					id: 4,
 					name: 'Contact',
 					src: '/contact',
 				},
