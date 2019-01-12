@@ -1,0 +1,32 @@
+@import '../../../common_styles/common_styles';
+
+.paragraph {
+	width: 100%;
+	margin: 10vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	color: $black;
+	&__header {
+		width: 70%;
+		font-size: $sectionsHeader;
+		text-align: center;
+		line-height: 7.5vh;
+		font-weight: normal;
+		letter-spacing: 0.1vw;
+	}
+	&__button {
+		padding: 1.5vh 2.5vw;
+		background-color: $white;
+		font-size: $navSize;
+		cursor: pointer;
+		border: 0.3vh solid $black;
+		transition: 0.4s ease-in-out;
+		&:hover {
+			background-color: $lightBlue;
+			border: 0.3vh solid $white;
+			color: $white;
+		}
+	}
+}
