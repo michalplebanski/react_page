@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 
 import HomeRoute from '../HomeRoute/HomeRoute.container';
 import Navigation from '../Navigation/Navigation.container';
+import Footer from '../Footer/Footer.container';
 
 class MainRoute extends Component {
 	render() {
@@ -14,6 +15,7 @@ class MainRoute extends Component {
 				<Route path="/jobs"/>
 				<Route path="/blog"/>
 				<Route path="/contact"/>
+				<Footer />
 
 			</>
 		);

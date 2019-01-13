@@ -1,0 +1,33 @@
+@import '../../common_styles/common_styles';
+
+.footer {
+	min-height: 30vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $footerBackground;
+	color: $footerColor;
+	&__list {
+		display: flex;
+		justify-content: space-around;
+		li {
+			text-align: center;
+			a {
+				cursor: pointer;
+				transition: 0.3s linear;
+				&:hover {
+					color: $black;
+				}
+			}
+		}
+	}
+	&__info {
+		width: 20%;
+		font-size: $footerSmall;
+	}
+	&__social {
+		width: 30%;
+		font-size: $mainHeader;
+	}
+}

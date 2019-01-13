@@ -14,7 +14,7 @@ const ServicesSection = (props) => {
 					<div className='services__example'>
 						{
 							props.webDev.map(item => 
-								<p>{item}</p>
+								<p key={item.id}>{item.name}</p>
 							)
 						}
 					</div>
@@ -26,7 +26,7 @@ const ServicesSection = (props) => {
 
 						{
 							props.mobileApp.map(item => 
-								<p>{item}</p>
+								<p key={item.id}>{item.name}</p>
 							)
 						}
 					</div>
@@ -37,7 +37,7 @@ const ServicesSection = (props) => {
 					<div className='services__example'>
 						{
 							props.designProduct.map(item => 
-								<p>{item}</p>
+								<p key={item.id}>{item.name}</p>
 							)
 						}
 					</div>

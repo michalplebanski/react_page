@@ -8,18 +8,42 @@ class Services extends Component {
 		super(props);
 		this.state = {
 			webDevelopment: [
-				'Front-End Developer',
-				'React Developer',
-				'Node Developer',
+				{
+					name: 'Front-End Developer',
+					id: 1,
+				},
+				{
+					name: 'React Developer',
+					id: 2,
+				},
+				{
+					name: 'Node Developer',
+					id: 3,
+				},
 			],
 			mobileApp: [
-				'iOS Developer',
-				'React Native Developer',
-				'Android Developer'
+				{
+					name: 'iOS Developer',
+					id: 1,
+				},
+				{
+					name: 'React Native Developer',
+					id: 2,
+				},
+				{
+					name: 'Android Developer',
+					id: 3,
+				},
 			],
 			designProduct: [
-				'UX/UI Designer',
-				'Product Designer'
+				{
+					name: 'UX/UI Designer',
+					id: 1,
+				},
+				{
+					name: 'Product Designer',
+					id: 2,
+				},
 			],
 		}
 	}
