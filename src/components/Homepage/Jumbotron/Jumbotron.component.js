@@ -10,7 +10,7 @@ const Jumbotron = () => {
 				<h2><span className='blue_color'>B</span>est <span className='blue_color'>T</span>echnology <span className='blue_color'>I</span>nnovations</h2>
 			</div>
 			<div className='jumbotron__icon'>
-				<i className="fa fa-arrow-down" />
+				<i className='fa fa-arrow-down'/>
 			</div>
 		</section>
 	);

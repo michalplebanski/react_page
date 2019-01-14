@@ -18,8 +18,10 @@
 	opacity: 1;
 	transition: 0.6s ease-in;
 	&__logo {
-		color: $white;
 		width: 20%;
+		color: $white;
+		font-size: $mainHeader;
+		text-align: center;
 	}
 	&__list {
 		width: 60%;
