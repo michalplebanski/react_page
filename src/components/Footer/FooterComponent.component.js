@@ -14,7 +14,12 @@ const FooterComponent = (props) => {
 								return <li key={index.id}>{index.name}</li>
 							} else {
 								return <li key={index.id}>
-									<a href={index.src}>{index.name}</a>
+									<a 
+										target='_blank'
+										href={index.src}
+									>
+										{index.name}
+									</a>
 								</li>
 							}
 						}
@@ -28,7 +33,7 @@ const FooterComponent = (props) => {
 							<a 
 								className={index.class}
 								href={index.src}
-								target={index.blank}
+								target='_blank'
 							>
 								{index.name}
 							</a>

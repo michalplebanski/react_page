@@ -22,25 +22,21 @@ class Footer extends Component {
 				{
 					class: 'fa fa-facebook',
 					src: 'https://www.netguru.com/',
-					target: '_blank',
 					id: '1',
 				},
 				{
 					class: 'fa fa-github',
 					src: 'github.com',
-					target: '_blank',
 					id: '2',
 				},
 				{
 					class: 'fa fa-twitter-square',
 					src: 'twitter.com',
-					target: '_blank',
 					id: '3',
 				},
 				{
 					class: 'fa fa-linkedin',
 					src: 'linkedin.com',
-					target: '_blank',
 					id: '4',
 				}
 			]

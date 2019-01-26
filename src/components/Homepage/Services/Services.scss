@@ -32,7 +32,12 @@
 		align-items: center;
 		padding: 0 2vw;
 		font-size: $navSize;
+		text-align: center;
 		transition: 0.4s linear;
+		@media (max-width: $tablet) {
+			pointer-events: none;
+		}
+
 		&:hover {
 			background-color: $white;
 			cursor: pointer;
@@ -60,5 +65,12 @@
 		visibility: hidden;
 		font-size: 2.3vh;
 		text-align: center;
+	}
+}
+
+@media (max-width: $tablet) {
+	.services__example {
+		color: $grey;
+		visibility: visible;
 	}
 }

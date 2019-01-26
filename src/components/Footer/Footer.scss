@@ -14,6 +14,7 @@
 		li {
 			text-align: center;
 			a {
+				color: $footerColor;
 				cursor: pointer;
 				transition: 0.3s linear;
 				&:hover {

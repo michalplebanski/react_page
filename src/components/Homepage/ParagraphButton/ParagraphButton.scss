@@ -15,6 +15,9 @@
 		line-height: 7.5vh;
 		font-weight: normal;
 		letter-spacing: 0.1vw;
+		@media (max-width: $tablet) {
+			width: 85%;
+		}
 	}
 	&__button {
 		margin-bottom: 4vh;
